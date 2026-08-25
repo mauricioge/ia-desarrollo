@@ -10,7 +10,7 @@ Cada pauta sigue el mismo formato: **qué hacer** → **por qué importa** → *
 **Qué hacer:** Antes de consultarle a la IA la ruta a seguir (1.1), declarar explícitamente:
 1. **Recursos con los que se cuenta** — desarrolladores, DBAs, servicios en la nube, licencias, infraestructura ya disponible.
 2. **Recursos que proporcionará el cliente** (si aplica) — por naturaleza del proyecto o por acuerdo contractual: accesos, credenciales, datos, personal de su lado, servicios ya contratados por ellos, etc.
-3. **Deadline, si ya está establecido** — y si ese deadline **no está a favor del proyecto** (es decir, es más ajustado de lo que el alcance requiere), identificar qué recursos adicionales serían necesarios para cumplirlo (más desarrolladores, reducir alcance, horas extra, servicios adicionales en la nube, etc.).
+3. **Deadline, si ya fue establecido** — y si ese deadline **no está a favor del proyecto** (es decir, es más ajustado de lo que el alcance requiere), identificar qué recursos adicionales serían necesarios para cumplirlo (más desarrolladores, reducir alcance, horas extra, servicios adicionales en la nube, etc.).
 
 **Por qué importa:** La ruta a seguir (1.1), el orden de construcción (1.3) y la estimación de tiempos (1.7) dependen directamente de qué recursos existen realmente y de cuánto tiempo hay. Pedir la ruta sin este insumo produce una recomendación teórica que puede ser inviable con lo que realmente se tiene disponible.
 
@@ -45,7 +45,7 @@ Cada pauta sigue el mismo formato: **qué hacer** → **por qué importa** → *
 **Ejemplo de prompt:** "Antes de implementar esto, dime qué supuestos estás haciendo y qué pasaría si alguno resulta falso."
 
 ### 1.5 Pedir alternativas de arquitectura, no una sola
-**Qué hacer:** Solicitar 2-3 enfoques distintos con sus trade-offs, no solo la primera solución plausible.
+**Qué hacer:** Solicitar 2-3 enfoques distintos con sus trade-offs (ventajas y desventajas), no solo la primera solución plausible.
 
 **Por qué importa:** Fuerza comparación real en vez de aceptar la respuesta por defecto.
 
@@ -61,7 +61,7 @@ Cada pauta sigue el mismo formato: **qué hacer** → **por qué importa** → *
 ### 1.7 Estimación de tiempos con margen para imprevistos (PERT)
 **Qué hacer:** Pedir tres estimados por tarea (optimista, más probable, pesimista) y aplicar la fórmula PERT: `(O + 4M + P) / 6`. Alternativamente, usar un buffer único al final del proyecto (30-50% del total) en vez de inflar cada tarea individual.
 
-**Por qué importa:** Da un tiempo de entrega realista sin depender de un "colchón" arbitrario, y obliga a la IA a explicitar dónde ve riesgo.
+**Por qué importa:** Da un tiempo de entrega realista sin depender de un "colchón" arbitrario, y obliga a la IA a explicitar _dónde ve riesgo_.
 
 **Ejemplo de prompt:** "Para esta tarea, dame estimado optimista, más probable y pesimista, y explica por qué cada uno."
 
