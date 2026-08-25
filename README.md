@@ -4,8 +4,6 @@ Cada pauta sigue el mismo formato: **qué hacer** → **por qué importa** → *
 
 ---
 
-## Resumen de la estructura
-
 | Sección | Pautas |
 |---|---|
 | 1. [Planeación](https://github.com/mauricioge/ia-desarrollo/blob/main/s1.md) | 1.0 – 1.7 |
