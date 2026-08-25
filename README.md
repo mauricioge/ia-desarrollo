@@ -1,7 +1,5 @@
 # Pautas para el uso de IA en Desarrollo de Software
 
----
-
 | Sección | Pautas |
 |---|---|
 | 1. [Planeación](https://github.com/mauricioge/ia-desarrollo/blob/main/s1.md) | 1.0 – 1.7 |
