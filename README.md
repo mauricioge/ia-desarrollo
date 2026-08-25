@@ -4,6 +4,8 @@ Cada pauta sigue el mismo formato: **qué hacer** → **por qué importa** → *
 
 ---
 
+---
+
 ## 1. Planeación
 
 ### 1.0 Insumos iniciales (antes de pedir ruta a seguir)
@@ -88,8 +90,8 @@ Cada pauta sigue el mismo formato: **qué hacer** → **por qué importa** → *
 
 **Ejemplo de prompt:** "Antes de implementar, dime qué casos límite y de error debería contemplar."
 
-### 2.4 Pruebas unitarias como parte del entregable
-**Qué hacer:** Que la IA genere pruebas unitarias automatizadas junto con el código, con cobertura real de la lógica de negocio — no después, ni superficiales.
+### 2.4 Pruebas unitarias y de integración como parte del entregable
+**Qué hacer:** Que la IA genere pruebas unitarias y de integración automatizadas junto con el código, con cobertura real de la lógica de negocio — no después, ni superficiales.
 
 **Por qué importa:** Pruebas escritas "después" tienden a no escribirse, o a cubrir solo lo obvio.
 
